@@ -10,7 +10,7 @@ const request = axios.create({
     timeout: 5000
 })
 
-// 设置post请求头
+// 设 置post请求头
 request.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 
 // 添加请求拦截器
